@@ -1,0 +1,19 @@
+// custom.scss
+
+//Alteração da cor de warning
+
+//Obs.: Utilizado o @use ao invés do @import, para evitar as mensagens de Deprecation Warning do terminal
+
+@use "bootstrap/scss/bootstrap" with (
+    $theme-colors: (
+        "primary": #0d6efd,
+        "secondary": #6c757d,
+        "success": #198754,
+        "danger": #dc3545,
+        "warning": #6d000f, // cor personalizada
+        "info": #0dcaf0,
+        "light": #f8f9fa,
+        "dark": #212529
+    )
+
+)
