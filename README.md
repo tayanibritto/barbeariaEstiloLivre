@@ -22,8 +22,7 @@ img/
     tratamento.png
   banner.png
   logo.png
-node_modules/
-  ...
+.gitignore
 index.html
 package.json
 package-lock.json
